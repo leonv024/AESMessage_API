@@ -44,3 +44,7 @@ Example Output:
  ```
 
  If an error occures, you'll get different status code. For exmaple: if the password doesn't match while decrypting, you'll get a status code 500.
+ 
+ The API works with both GET and POST. However, using GET is HIGHLY INSECURE and should not be used other than for testing only.
+ 
+ Example using GET: <https://aesmessage.com/api_v1.py?option=encrypt&text=hello%20world&passwd=foo>
