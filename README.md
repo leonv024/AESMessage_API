@@ -1,4 +1,4 @@
-# AESMessage_API
+# AESMessage API
 Demo on how to use AESMessage.com API (AES256)
 
 Encrypt:
