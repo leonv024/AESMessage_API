@@ -48,3 +48,5 @@ Example Output:
  The API works with both GET and POST. However, using GET is HIGHLY INSECURE and should not be used other than for testing only.
  
  Example using GET: <https://aesmessage.com/api_v1.py?option=encrypt&text=hello%20world&passwd=foo>
+
+## Please note there 's a rate-limit. You cannot encrypt big of texts or make a excessive amount of requests in a short time period.
